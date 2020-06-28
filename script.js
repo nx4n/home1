@@ -20,4 +20,4 @@ let q1 = prompt('Введите обязательный расход в это�
 appData.expenses[q1] = q2;
 appData.expenses[q3] = q4;
 
-alert(appData.theCash / 30);
+alert(appData.theCash - appData.expenses / 30);
